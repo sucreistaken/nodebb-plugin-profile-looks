@@ -1,6 +1,6 @@
 {
   "name": "nodebb-plugin-profile-looks",
-  "version": "1.0.6",
+  "version": "1.0.9",
   "description": "Profilinize en son kimlerin baktığını gösteren NodeBB eklentisi.",
   "main": "library.js",
   "repository": {
