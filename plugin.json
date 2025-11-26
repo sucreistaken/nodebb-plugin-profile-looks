@@ -1,0 +1,21 @@
+{
+    "id": "nodebb-plugin-profile-looks",
+    "name": "Profil Görüntüleyenler",
+    "url": "https://github.com/sucreistaken/nodebb-plugin-profile-looks",
+    "library": "./library.js",
+    "hooks": [
+        {
+            "hook": "filter:user.profile",
+            "method": "recordProfileView"
+        },
+        {
+            "hook": "filter:widgets.getWidgets",
+            "method": "defineWidgets"
+        },
+        {
+            "hook": "filter:widget.render:profile-viewers",
+            "method": "renderWidget"
+        }
+    ],
+    "templates": "./templates" 
+}

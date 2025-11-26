@@ -1,0 +1,36 @@
+{
+  "name": "nodebb-plugin-profile-looks",
+  "version": "1.0.6",
+  "description": "Profilinize en son kimlerin baktığını gösteren NodeBB eklentisi.",
+  "main": "library.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/sucreistaken/nodebb-plugin-profile-looks"
+  },
+  "scripts": {
+    "lint": "eslint ."
+  },
+  "keywords": [
+    "nodebb",
+    "plugin",
+    "profile",
+    "views",
+    "visitors"
+  ],
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/sucreistaken/nodebb-plugin-profile-looks/issues"
+  },
+  "readmeFilename": "README.md",
+  "nbbpm": {
+    "compatibility": "^4.0.0"
+  },
+  "devDependencies": {
+    "@commitlint/cli": "20.1.0",
+    "@commitlint/config-angular": "20.0.0",
+    "eslint": "9.39.1",
+    "eslint-config-nodebb": "1.1.11",
+    "husky": "9.1.7",
+    "lint-staged": "16.2.7"
+  }
+}
